@@ -1,2 +1,2 @@
 # PrimeiroProjeto
-Desenvolvimento de Web site com Js, Css, Html, etc.
+Desenvolvimento de um novo Web site com Js, Css, Html, etc.
