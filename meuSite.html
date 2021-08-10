@@ -1,0 +1,107 @@
+<!Doctype html>
+
+<html>
+    <head>
+        <title>Meu site</title>
+        <meta charset="utf-8">    <!--meta é usado para interpretação das acentuações -->
+    </head>
+    <body>
+        <a href="file:///D:/Users/ADM/Documentos/PrimeiroProjeto/PrimeiroProjeto/projeto.html">Home</a>
+        <h3 align="center">Meu primeiro site</h3>
+
+        <div>
+            <h2>Login</h2>
+            <form action="">
+                Login:<br>
+                <input type="text" name="login"><br>
+
+                Senha:<br>
+                <input type="password" name="senha"> <br> <br>
+
+                <input type="button" value="logar">
+            </form>
+
+            <h2>Cadastre-se</h2>
+
+            <form action="">
+                Login:<br>
+                    <input type="text" name="login"><br><br>
+
+                Sexo: <br>
+                <input type="radio" name="sexo" value="M"> Masculino<br>    
+                <input type="radio" name="sexo" value="F"> Feminino<br><br>  
+                
+                Interesses: <br>
+                <input type="checkbox" name="interesses"> Futebol<br>
+                <input type="checkbox" name="interesses"> Cursos<br>
+                <input type="checkbox" name="interesses"> Moda<br><br>
+
+                Estado: <br>
+                <select name="estado" id="">
+                    <option value="sp">SP</option>
+                    <option value="mg">MG</option>
+                    <option value="rj">RJ</option>
+                    <option value="df">DF</option>
+                    <option value="mt">MT</option>
+                    <option value="rs">RS</option>
+                </select><br><br>
+
+                Obervações:<br>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+                <input type="submit" value='Cadastrar'><br>
+            </form> 
+        </div>
+
+        <div>
+            <h2>Caracteres especiais</h2>
+            <!-- visitar site - entities html w3scholl para caracteres especiais -->
+        </div>
+
+        <div>
+            <h2>Table Product</h2>
+            <table border="7" width="80%">
+                <thead>
+                    <th>Code</th>
+                    <th>Product</th>
+                    <th>Value</th>
+                </thead>
+                    <tr>
+                        <td>Código</td>
+                        <td>Produto</td>
+                        <td>Preço</td>
+                    </tr>
+                    <tr>
+                        <td>001</td>
+                        <td>Tablet</td>
+                        <td>2499,99</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Laptop</td>
+                        <td>3999,99</td>
+                    </tr>
+                    <tr>
+                        <!-- rowspan= aumenta as linhas das celulas e colspan=aumenta colunas das células.  -->
+                        <td rowspan="3">Desconto</td>    
+                        <td>Cupom 1 - R$ 10</td>
+                        <td>2499,99</td>
+                    </tr>
+                    <tr>
+                        <td>Cupom 1 - R$ 10</td>
+                        <td>2499,99</td>
+                    </tr>
+                    <tr>
+                        <td>Cupom 1 - R$ 10</td>
+                        <td>2499,99</td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td colspan="2">7456,00</td>
+                    </tr>
+                </table>
+            </div>
+        </body>
+    </html>
+                    
+                    
+                
